@@ -1,0 +1,240 @@
+.navbar{
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    justify-content: space-between;
+    height: 10vh;
+    background-color: #181818;
+    margin-left: 0%;
+}
+.nav_left{
+    font-size: 1rem;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.nav_right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right:0%;
+
+}
+.id{
+    margin: 10px;
+    padding: 10px;
+    color:white;
+    text-decoration: none;
+}
+
+body{
+    margin: 0%;
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+    
+}
+.home{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 50%;
+    padding-left: 100px ;
+    height: 70vh;
+    
+  
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 70vh;
+    margin-left: 0%;
+}
+.image{
+    height: 45%;
+    width: 67%;
+}
+
+.pavan{
+    color: rgb(103, 245, 228);
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.ph{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.projects_left{
+    display: flex;
+    flex-direction: column;
+    border:1px solid rgb(20, 20, 20);
+    background-color: #181818;
+    padding: 20px;
+    align-items: center;
+    width: 40%;
+    height: 60%;
+    
+}
+.projects_right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid rgb(20, 20, 20);
+    background-color: #181818;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 50px;
+    width: 40%;
+    height: 60%;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 19.5%;
+    
+}
+.skills_left{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+    width:50%;
+    
+}
+.skills_right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+    width:50%;
+    margin-right: 0%;
+}
+h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: medium;
+    font-weight: bold;
+    
+}
+.contact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content:flex-end;
+}.logo{
+    height: 1%;
+    width: 1%;
+}
+.contact1{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+.navbar nav_left p{
+    font-weight: 2rem;
+}
+.id1{
+    text-decoration: none;
+    color:white;
+}
+/* Responsive styles */
+@media (max-width: 900px) {
+    .home, .projects, .skills {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: 0;
+    }
+    .left, .right, .projects_left, .projects_right, .skills_left, .skills_right {
+        width: 90% !important;
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+        height: auto;
+    }
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+    }
+    .nav_right {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .nav_left {
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .image {
+        width: 90%;
+        height: auto;
+    }
+    .skills {
+        width: 95%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 0.95rem;
+    }
+    .navbar {
+        padding: 10px 0;
+    }
+    .nav_left p {
+        font-size: 1.2rem !important;
+    }
+    h1, h4 {
+        font-size: 1.1rem;
+    }
+    .image {
+        width: 100%;
+        height: auto;
+    }
+    .ph h1 {
+        font-size: 1.2rem;
+    }
+    .project_card {
+        width: 100% !important;
+        margin: 10px 0 !important;
+    }
+}
+
